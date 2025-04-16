@@ -22,6 +22,7 @@ public class BrowserTest {
 		String text =driver.findElement(By.cssSelector("h1")).getText();
 		System.out.println(text);
 		Assert.assertTrue(text.equalsIgnoreCase("Siri Learning Devops"));
+		System.out.println(text);
 		driver.close();
 	
 		
